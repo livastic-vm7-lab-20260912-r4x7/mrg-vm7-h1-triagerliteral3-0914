@@ -1,2 +1,1 @@
-.github/workflows/protected\ gate.yml @livastic-vm7-primary-20260911
-.github/workflows/protected-control.yml @livastic-vm7-primary-20260911
+.github/workflows/* @livastic-vm7-primary-20260911
