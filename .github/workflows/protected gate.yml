@@ -1,0 +1,12 @@
+name: VM7 exact-target protected-file proof
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harmless proof
+        run: echo "authorized-test-only"
+# canonical-end
