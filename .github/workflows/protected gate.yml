@@ -10,3 +10,4 @@ jobs:
       - name: Harmless proof
         run: echo "authorized-test-only"
 # canonical-end
+# target-preserving-control
