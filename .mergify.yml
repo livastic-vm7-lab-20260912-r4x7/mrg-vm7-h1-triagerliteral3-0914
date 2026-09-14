@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: VM7 exact-target Code Owner merge
+    conditions:
+      - base = main
+      - author = livastic-vm7-secondary-20260911
+      - from-fork
+      - title = VM7_EXACT_TARGET_TRIGGER
+    actions:
+      merge: {}
